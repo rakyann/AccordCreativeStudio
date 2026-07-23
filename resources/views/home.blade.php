@@ -16,6 +16,8 @@
         @include('partials.faq')
         
         @include('partials.testimonials')
+        
+        @include('partials.cta-footer')
     </main>
 
 @endsection
