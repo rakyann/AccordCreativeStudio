@@ -70,4 +70,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Count-up Logic
+    const countUpElements = document.querySelectorAll('.count-up');
+    const countUpObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                const target = parseInt(el.getAttribute('data-target'));
+                const duration = 2000;
+                const step = target / (duration / 16); // 60fps
+                let current = 0;
+                
+                const updateCount = () => {
+                    current += step;
+                    if (current < target) {
+                        el.textContent = Math.ceil(current);
+                        requestAnimationFrame(updateCount);
+                    } else {
+                        el.textContent = target;
+                    }
+                };
+                
+                updateCount();
+                observer.unobserve(el);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    countUpElements.forEach(el => countUpObserver.observe(el));
 });

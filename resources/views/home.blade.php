@@ -7,7 +7,7 @@
     <main>
         @include('partials.hero')
         
-        <!-- Other sections will be included here -->
+        @include('partials.about')
     </main>
 
 @endsection
