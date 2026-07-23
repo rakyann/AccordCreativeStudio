@@ -664,3 +664,137 @@ a {
     line-height: 1.6;
     max-width: 800px;
 }
+
+/* Testimonials Section */
+.testimonials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+
+.testimonials-title {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 500;
+    max-width: 600px;
+    letter-spacing: -1px;
+}
+
+.testimonials-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Marquee Utilities */
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Fade edges for marquee */
+.marquee-wrapper::before,
+.marquee-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+.marquee-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-primary), transparent);
+}
+.marquee-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-primary), transparent);
+}
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee-track.reverse {
+    animation-direction: reverse;
+    animation-duration: 40s;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Specific Marquees */
+.logos-marquee {
+    margin-bottom: 60px;
+}
+
+.client-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.testimonials-marquee {
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 40px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.quote {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.reviewer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .testimonials-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    
+    .testimonial-card {
+        width: 320px;
+        padding: 30px;
+    }
+}

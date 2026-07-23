@@ -14,6 +14,8 @@
         @include('partials.service')
         
         @include('partials.faq')
+        
+        @include('partials.testimonials')
     </main>
 
 @endsection
