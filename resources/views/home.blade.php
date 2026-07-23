@@ -8,6 +8,8 @@
         @include('partials.hero')
         
         @include('partials.about')
+        
+        @include('partials.works')
     </main>
 
 @endsection
