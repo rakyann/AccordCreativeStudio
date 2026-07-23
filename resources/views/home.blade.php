@@ -10,6 +10,10 @@
         @include('partials.about')
         
         @include('partials.works')
+        
+        @include('partials.service')
+        
+        @include('partials.faq')
     </main>
 
 @endsection
