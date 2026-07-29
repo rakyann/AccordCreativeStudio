@@ -2,7 +2,7 @@
     <div class="container testimonials-header reveal">
         <h2 class="testimonials-title">Good work gets noticed. Great work gets talked about.</h2>
         <div class="testimonials-links">
-            <a href="/admin/dashboard" class="link-arrow">↳ Manage Testimonials in Admin</a>
+            <a href="#contact" class="link-arrow">↳ Let's Collaborate</a>
             <a href="#work" class="link-arrow">↳ View all work</a>
         </div>
     </div>

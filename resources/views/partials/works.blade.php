@@ -32,7 +32,7 @@
         </div>
 
         <div class="works-footer reveal">
-            <a href="/admin/dashboard" class="link-arrow">↳ Manage & Upload Works in Admin</a>
+            <a href="#contact" class="link-arrow">↳ See all works</a>
         </div>
     </div>
 </section>
