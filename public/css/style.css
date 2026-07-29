@@ -1160,33 +1160,33 @@ a {
     color: #FFFFFF;
 }
 
-/* Section 2: About — Crisp Platinum Silver (#F1F5F9) */
+/* Section 2: About — Dark Steel Charcoal Grey (#1E293B) */
 #about {
-    background-color: #F1F5F9;
-    color: #000B5B;
+    background-color: #1E293B;
+    color: #FFFFFF;
 }
 #about .about-statement,
 #about .industries-title,
 #about .stat-number {
-    color: #000B5B;
+    color: #FFFFFF;
 }
 #about .about-story,
 #about .stat-label,
 #about .label-small,
 #about .text-muted {
-    color: #1E293B;
+    color: #94A3B8;
 }
 #about .tag {
     background-color: #000B5B;
-    border-color: #000B5B;
+    border-color: #38BDF8;
     color: #FFFFFF;
     font-weight: 500;
 }
 #about .link-arrow {
-    color: #000B5B;
+    color: #60A5FA;
 }
 #about .link-arrow::after {
-    background-color: #000B5B;
+    background-color: #60A5FA;
 }
 
 /* Section 3: Works — Deep Velvet Navy (#00063B) */
@@ -1206,33 +1206,33 @@ a {
     background-color: #000B5B !important;
 }
 
-/* Section 4: Service — Crisp Platinum Silver (#F1F5F9) */
+/* Section 4: Service — Dark Midnight Steel (#162032) */
 #service {
-    background-color: #F1F5F9;
-    color: #000B5B;
+    background-color: #162032;
+    color: #FFFFFF;
 }
 #service .service-title,
 #service .service-name,
 #service .service-number {
-    color: #000B5B;
+    color: #FFFFFF;
 }
 #service .service-desc {
-    color: #1E293B;
+    color: #94A3B8;
 }
 #service .service-item {
-    border-top-color: rgba(0, 11, 91, 0.15);
+    border-top-color: rgba(255, 255, 255, 0.15);
 }
 #service .tag {
     background-color: #000B5B;
-    border-color: #000B5B;
+    border-color: #38BDF8;
     color: #FFFFFF;
     font-weight: 500;
 }
 #service .link-arrow {
-    color: #000B5B;
+    color: #60A5FA;
 }
 #service .link-arrow::after {
-    background-color: #000B5B;
+    background-color: #60A5FA;
 }
 
 /* Section 5: FAQ — Dominant Deep Navy (#000B5B) */
