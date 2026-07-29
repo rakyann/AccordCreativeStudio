@@ -1160,9 +1160,9 @@ a {
     color: #FFFFFF;
 }
 
-/* Section 2: About — Premium Metallic Silver (#E8EBEF) */
+/* Section 2: About — Darker Metallic Slate Silver (#94A3B8) */
 #about {
-    background-color: #E8EBEF;
+    background-color: #94A3B8;
     color: #000B5B;
 }
 #about .about-statement,
@@ -1174,11 +1174,11 @@ a {
 #about .stat-label,
 #about .label-small,
 #about .text-muted {
-    color: #334155;
+    color: #000B5B;
 }
 #about .tag {
-    background-color: #D6DBE4;
-    border-color: #94A3B8;
+    background-color: #CBD5E1;
+    border-color: #64748B;
     color: #000B5B;
 }
 #about .link-arrow {
@@ -1205,9 +1205,9 @@ a {
     background-color: #000B5B !important;
 }
 
-/* Section 4: Service — High-End Liquid Silver (#E2E5EC) */
+/* Section 4: Service — Darker Liquid Silver (#A0AEC0) */
 #service {
-    background-color: #E2E5EC;
+    background-color: #A0AEC0;
     color: #000B5B;
 }
 #service .service-title,
@@ -1216,14 +1216,14 @@ a {
     color: #000B5B;
 }
 #service .service-desc {
-    color: #334155;
+    color: #000B5B;
 }
 #service .service-item {
-    border-top-color: rgba(0, 11, 91, 0.2);
+    border-top-color: rgba(0, 11, 91, 0.25);
 }
 #service .tag {
     background-color: #CBD5E1;
-    border-color: #94A3B8;
+    border-color: #64748B;
     color: #000B5B;
 }
 #service .link-arrow {
