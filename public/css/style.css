@@ -1160,9 +1160,9 @@ a {
     color: #FFFFFF;
 }
 
-/* Section 2: About — Soft Ice Blue Tint (#F0F4FF) */
+/* Section 2: About — Premium Metallic Silver (#E8EBEF) */
 #about {
-    background-color: #F0F4FF;
+    background-color: #E8EBEF;
     color: #000B5B;
 }
 #about .about-statement,
@@ -1174,11 +1174,11 @@ a {
 #about .stat-label,
 #about .label-small,
 #about .text-muted {
-    color: #2D3A7C;
+    color: #334155;
 }
 #about .tag {
-    background-color: #DDE5FF;
-    border-color: #93C5FD;
+    background-color: #D6DBE4;
+    border-color: #94A3B8;
     color: #000B5B;
 }
 #about .link-arrow {
@@ -1205,9 +1205,9 @@ a {
     background-color: #000B5B !important;
 }
 
-/* Section 4: Service — Pure Silk White (#FFFFFF) */
+/* Section 4: Service — High-End Liquid Silver (#E2E5EC) */
 #service {
-    background-color: #FFFFFF;
+    background-color: #E2E5EC;
     color: #000B5B;
 }
 #service .service-title,
@@ -1216,14 +1216,14 @@ a {
     color: #000B5B;
 }
 #service .service-desc {
-    color: #2D3A7C;
+    color: #334155;
 }
 #service .service-item {
-    border-top-color: rgba(0, 11, 91, 0.15);
+    border-top-color: rgba(0, 11, 91, 0.2);
 }
 #service .tag {
-    background-color: #F0F4FF;
-    border-color: #93C5FD;
+    background-color: #CBD5E1;
+    border-color: #94A3B8;
     color: #000B5B;
 }
 #service .link-arrow {
