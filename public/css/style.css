@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bruno+Ace&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Italiana&family=Krona+One&family=Michroma&family=Outfit:wght@700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@700;800&family=Zen+Dots&display=swap');
 
 :root {
-    /* Colors - Dominant Deep Navy Theme (#000B5B) + Light Blue (#60A5FA) + Crisp White (#FFFFFF) */
-    --bg-primary: #000B5B;
-    --bg-secondary: #00063B;
+    /* Colors - Vibrant Electric Studio Orange Theme (#FF5500) */
+    --bg-primary: #FF5500;
+    --bg-secondary: #D94400;
     --text-primary: #FFFFFF;
-    --text-secondary: #93C5FD;
-    --border-color: rgba(255, 255, 255, 0.18);
-    --accent-color: #60A5FA;
+    --text-secondary: rgba(255, 255, 255, 0.88);
+    --border-color: rgba(255, 255, 255, 0.22);
+    --accent-color: #FF5500;
 
     /* Spacing */
     --s1: 150px; /* Reduced for smaller screens, updated in media queries */
@@ -119,16 +119,16 @@ a {
     width: 100%;
     padding: 24px 0;
     z-index: 100;
-    background-color: rgba(0, 11, 91, 0.88);
+    background-color: rgba(255, 85, 0, 0.88);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
     transition: padding 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .navbar.scrolled {
     padding: 14px 0;
-    background-color: rgba(0, 7, 66, 0.95);
+    background-color: rgba(217, 68, 0, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -1151,47 +1151,47 @@ a {
 }
 
 /* ==========================================================================
-   Per-Section Color Rhythm (Dominant Deep Navy #000B5B + Light Blue + White)
+   Per-Section Color Rhythm (Vibrant Electric Studio Orange #FF5500 Theme)
    ========================================================================== */
 
-/* Section 1: Hero — Dominant Deep Midnight Navy (#000B5B) */
+/* Section 1: Hero — Vibrant Electric Orange (#FF5500) */
 #hero.hero-section {
-    background-color: #000B5B;
+    background-color: #FF5500;
     color: #FFFFFF;
 }
 
-/* Section 2: About — Dark Steel Charcoal Grey (#1E293B) */
+/* Section 2: About — Warm Vanilla Cream (#FFF4EE) */
 #about {
-    background-color: #1E293B;
-    color: #FFFFFF;
+    background-color: #FFF4EE;
+    color: #111111;
 }
 #about .about-statement,
 #about .industries-title,
 #about .stat-number {
-    color: #FFFFFF;
+    color: #111111;
 }
 #about .about-story,
 #about .stat-label,
 #about .label-small,
 #about .text-muted {
-    color: #94A3B8;
+    color: #555555;
 }
 #about .tag {
-    background-color: #000B5B;
-    border-color: #38BDF8;
+    background-color: #FF5500;
+    border-color: #FF5500;
     color: #FFFFFF;
     font-weight: 500;
 }
 #about .link-arrow {
-    color: #60A5FA;
+    color: #FF5500;
 }
 #about .link-arrow::after {
-    background-color: #60A5FA;
+    background-color: #FF5500;
 }
 
-/* Section 3: Works — Deep Velvet Navy (#00063B) */
+/* Section 3: Works — Pitch Black Contrast (#111111) */
 #work {
-    background-color: #00063B;
+    background-color: #111111;
     color: #FFFFFF;
 }
 #work .works-title,
@@ -1200,44 +1200,44 @@ a {
 }
 #work .work-desc,
 #work .label-small {
-    color: #93C5FD;
+    color: #AAAAAA;
 }
 #work .work-thumbnail {
-    background-color: #000B5B !important;
+    background-color: #1E1E1E !important;
 }
 
-/* Section 4: Service — Dark Midnight Steel (#162032) */
+/* Section 4: Service — Pure Silk White (#FFFFFF) */
 #service {
-    background-color: #162032;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #111111;
 }
 #service .service-title,
 #service .service-name,
 #service .service-number {
-    color: #FFFFFF;
+    color: #111111;
 }
 #service .service-desc {
-    color: #94A3B8;
+    color: #555555;
 }
 #service .service-item {
-    border-top-color: rgba(255, 255, 255, 0.15);
+    border-top-color: rgba(0, 0, 0, 0.12);
 }
 #service .tag {
-    background-color: #000B5B;
-    border-color: #38BDF8;
+    background-color: #FF5500;
+    border-color: #FF5500;
     color: #FFFFFF;
     font-weight: 500;
 }
 #service .link-arrow {
-    color: #60A5FA;
+    color: #FF5500;
 }
 #service .link-arrow::after {
-    background-color: #60A5FA;
+    background-color: #FF5500;
 }
 
-/* Section 5: FAQ — Dominant Deep Navy (#000B5B) */
+/* Section 5: FAQ — Rich Flame Orange (#E64A00) */
 #faq {
-    background-color: #000B5B;
+    background-color: #E64A00;
     color: #FFFFFF;
 }
 #faq .faq-title,
@@ -1246,7 +1246,7 @@ a {
 }
 #faq .faq-subtitle,
 #faq .faq-answer-inner p {
-    color: #93C5FD;
+    color: rgba(255, 255, 255, 0.85);
 }
 #faq .faq-item {
     border-color: rgba(255, 255, 255, 0.2);
@@ -1255,9 +1255,9 @@ a {
     background-color: #FFFFFF;
 }
 
-/* Section 6: Testimonials — Rich Deep Navy (#00084A) */
+/* Section 6: Testimonials — Vibrant Electric Orange (#FF5500) */
 #testimonials {
-    background-color: #00084A;
+    background-color: #FF5500;
     color: #FFFFFF;
 }
 #testimonials .testimonials-title,
@@ -1265,37 +1265,37 @@ a {
     color: #FFFFFF;
 }
 #testimonials .link-arrow {
-    color: #60A5FA;
+    color: #FFFFFF;
 }
 #testimonials .link-arrow::after {
-    background-color: #60A5FA;
+    background-color: #FFFFFF;
 }
 #testimonials .testimonial-card {
-    background-color: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.18);
+    background-color: rgba(0, 0, 0, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
 }
 #testimonials .marquee-wrapper::before {
-    background: linear-gradient(to right, #00084A, transparent);
+    background: linear-gradient(to right, #FF5500, transparent);
 }
 #testimonials .marquee-wrapper::after {
-    background: linear-gradient(to left, #00084A, transparent);
+    background: linear-gradient(to left, #FF5500, transparent);
 }
 #testimonials .client-logo {
-    color: #93C5FD;
+    color: rgba(255, 255, 255, 0.85);
 }
 
-/* Section 7: Contact & Footer — Deepest Midnight Velvet (#000533) */
+/* Section 7: Contact & Footer — Pitch Black Contrast (#111111) */
 #contact {
-    background-color: #000533;
+    background-color: #111111;
     color: #FFFFFF;
 }
 #contact .cta-title {
     color: #FFFFFF;
 }
 .footer {
-    background-color: #000533;
+    background-color: #111111;
     color: #FFFFFF;
-    border-top-color: rgba(255, 255, 255, 0.18);
+    border-top-color: rgba(255, 255, 255, 0.15);
 }
 .footer-brand h2,
 .footer-col a {
@@ -1304,5 +1304,5 @@ a {
 .footer-col h4,
 .footer-info .info-text,
 .footer-bottom p {
-    color: #93C5FD;
+    color: #888888;
 }
