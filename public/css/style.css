@@ -1101,20 +1101,20 @@ a {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #000B5B;
+    background-color: #FF5500;
     color: #FFFFFF;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 50px;
     padding: 12px 24px;
-    box-shadow: 0 10px 30px rgba(0, 11, 91, 0.4);
+    box-shadow: 0 10px 30px rgba(255, 85, 0, 0.45);
     z-index: 999;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .floating-cta:hover {
     transform: translateY(-4px) scale(1.03);
-    background-color: #011DC7;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background-color: #E64A00;
+    box-shadow: 0 15px 35px rgba(230, 74, 0, 0.6);
 }
 
 .floating-cta-inner {
@@ -1189,9 +1189,9 @@ a {
     background-color: #FF5500;
 }
 
-/* Section 3: Works — Pitch Black Contrast (#111111) */
+/* Section 3: Works — Deep Terracotta Orange (#D94400) */
 #work {
-    background-color: #111111;
+    background-color: #D94400;
     color: #FFFFFF;
 }
 #work .works-title,
@@ -1200,10 +1200,10 @@ a {
 }
 #work .work-desc,
 #work .label-small {
-    color: #AAAAAA;
+    color: rgba(255, 255, 255, 0.85);
 }
 #work .work-thumbnail {
-    background-color: #1E1E1E !important;
+    background-color: #B33600 !important;
 }
 
 /* Section 4: Service — Pure Silk White (#FFFFFF) */
@@ -1284,18 +1284,18 @@ a {
     color: rgba(255, 255, 255, 0.85);
 }
 
-/* Section 7: Contact & Footer — Pitch Black Contrast (#111111) */
+/* Section 7: Contact & Footer — Deep Velvet Studio Orange (#CC3D00 / #B33600) */
 #contact {
-    background-color: #111111;
+    background-color: #CC3D00;
     color: #FFFFFF;
 }
 #contact .cta-title {
     color: #FFFFFF;
 }
 .footer {
-    background-color: #111111;
+    background-color: #B33600;
     color: #FFFFFF;
-    border-top-color: rgba(255, 255, 255, 0.15);
+    border-top-color: rgba(255, 255, 255, 0.2);
 }
 .footer-brand h2,
 .footer-col a {
@@ -1304,5 +1304,5 @@ a {
 .footer-col h4,
 .footer-info .info-text,
 .footer-bottom p {
-    color: #888888;
+    color: rgba(255, 255, 255, 0.8);
 }
