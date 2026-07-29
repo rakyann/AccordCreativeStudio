@@ -316,6 +316,87 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-sparkles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.sparkle {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.7));
+    animation: floatSparkle 6s ease-in-out infinite alternate;
+}
+
+.sparkle-1 {
+    top: 15%;
+    right: 12%;
+    width: 34px;
+    height: 34px;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+
+.sparkle-2 {
+    top: 35%;
+    right: 28%;
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    animation-delay: 1.2s;
+    animation-duration: 6.5s;
+}
+
+.sparkle-3 {
+    top: 55%;
+    left: 7%;
+    width: 28px;
+    height: 28px;
+    animation-delay: 2.5s;
+    animation-duration: 5.5s;
+}
+
+.sparkle-4 {
+    top: 20%;
+    left: 45%;
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    animation-delay: 0.8s;
+    animation-duration: 7s;
+}
+
+.sparkle-5 {
+    bottom: 25%;
+    right: 8%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.8s;
+    animation-duration: 6s;
+}
+
+@keyframes floatSparkle {
+    0% {
+        transform: translateY(0) rotate(0deg) scale(0.9);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateY(-20px) rotate(18deg) scale(1.15);
+        opacity: 0.95;
+    }
+    100% {
+        transform: translateY(-8px) rotate(-10deg) scale(1);
+        opacity: 0.6;
+    }
 }
 
 .hero-headline {
