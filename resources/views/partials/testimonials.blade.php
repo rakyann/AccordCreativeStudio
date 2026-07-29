@@ -37,9 +37,26 @@
                     </div>
                 @empty
                     <div class="testimonial-card">
-                        <p class="quote">"Working with ACCORD felt effortless. They delivered world-class results."</p>
-                        <div class="reviewer">
-                            <span class="reviewer-name">Satisfied Partner</span>
+                        <p class="quote">"Working with ACCORD felt effortless. They delivered world-class results that exceeded our highest expectations."</p>
+                        <div class="reviewer mt-2">
+                            <span class="reviewer-name">Alexander Wright</span>
+                            <span class="reviewer-title text-muted">Founder & CEO — Aether Global</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"The level of craft and vision they brought to our brand identity was extraordinary. A true design powerhouse."</p>
+                        <div class="reviewer mt-2">
+                            <span class="reviewer-name">Elena Rostova</span>
+                            <span class="reviewer-title text-muted">Creative Director — Komorebi Paris</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Flawless execution and incredible attention to detail. ACCORD transformed our digital presence completely."</p>
+                        <div class="reviewer mt-2">
+                            <span class="reviewer-name">Marcus Vance</span>
+                            <span class="reviewer-title text-muted">Head of Product — Vanguard Tech</span>
                         </div>
                     </div>
                 @endforelse

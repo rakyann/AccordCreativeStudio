@@ -27,7 +27,47 @@
                     </div>
                 </div>
             @empty
-                <p class="text-muted">No projects uploaded yet.</p>
+                <div class="work-card reveal">
+                    <div class="work-thumbnail-wrapper">
+                        <div class="work-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 280px; border-radius: 8px;"></div>
+                        <div class="work-tags-overlay mt-2">
+                            <span class="tag tag-small">Web Application / UI & UX</span>
+                            <span class="tag tag-small">2026</span>
+                        </div>
+                    </div>
+                    <div class="work-info mt-3">
+                        <h3 class="work-name">Aether Digital Experience</h3>
+                        <p class="work-desc text-muted">Ultra-modern digital platform designed for Next-Gen interactive web experience.</p>
+                    </div>
+                </div>
+
+                <div class="work-card reveal">
+                    <div class="work-thumbnail-wrapper">
+                        <div class="work-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 280px; border-radius: 8px;"></div>
+                        <div class="work-tags-overlay mt-2">
+                            <span class="tag tag-small">Brand Identity & Strategy</span>
+                            <span class="tag tag-small">2026</span>
+                        </div>
+                    </div>
+                    <div class="work-info mt-3">
+                        <h3 class="work-name">Komorebi Haute Couture</h3>
+                        <p class="work-desc text-muted">Luxury monochrome visual identity and e-commerce experience.</p>
+                    </div>
+                </div>
+
+                <div class="work-card reveal">
+                    <div class="work-thumbnail-wrapper">
+                        <div class="work-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 280px; border-radius: 8px;"></div>
+                        <div class="work-tags-overlay mt-2">
+                            <span class="tag tag-small">Product Design & Mobile App</span>
+                            <span class="tag tag-small">2025</span>
+                        </div>
+                    </div>
+                    <div class="work-info mt-3">
+                        <h3 class="work-name">Vanguard Autonomous OS</h3>
+                        <p class="work-desc text-muted">Futuristic IoT dashboard and mobile interface for smart infrastructure.</p>
+                    </div>
+                </div>
             @endforelse
         </div>
 
