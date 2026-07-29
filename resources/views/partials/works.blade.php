@@ -6,31 +6,33 @@
         </div>
         
         <div class="works-grid">
-            @foreach(config('portfolio') as $project)
+            @forelse($projects ?? [] as $project)
                 <div class="work-card reveal">
                     <div class="work-thumbnail-wrapper">
-                        <!-- Placeholder div since we don't have actual images -->
-                        <div class="work-thumbnail" style="background-color: #1a1a1a;">
-                            @if($project['coming_soon'])
-                                <div class="badge-coming-soon">Coming Soon</div>
+                        @if($project->image_path)
+                            <div class="work-thumbnail" style="background-image: url('{{ $project->image_url }}'); background-size: cover; background-position: center; min-height: 280px; border-radius: 8px;"></div>
+                        @else
+                            <div class="work-thumbnail" style="background-color: #0018B8; min-height: 280px; border-radius: 8px;"></div>
+                        @endif
+                        <div class="work-tags-overlay mt-2">
+                            <span class="tag tag-small">{{ $project->category }}</span>
+                            @if($project->year)
+                                <span class="tag tag-small">{{ $project->year }}</span>
                             @endif
                         </div>
-                        <div class="work-tags-overlay">
-                            @foreach($project['tags'] as $tag)
-                                <span class="tag tag-small">{{ $tag }}</span>
-                            @endforeach
-                        </div>
                     </div>
-                    <div class="work-info">
-                        <h3 class="work-name">{{ $project['title'] }}</h3>
-                        <p class="work-desc text-muted">{{ $project['description'] }}</p>
+                    <div class="work-info mt-3">
+                        <h3 class="work-name">{{ $project->title }}</h3>
+                        <p class="work-desc text-muted">{{ $project->description }}</p>
                     </div>
                 </div>
-            @endforeach
+            @empty
+                <p class="text-muted">No projects uploaded yet.</p>
+            @endforelse
         </div>
 
         <div class="works-footer reveal">
-            <a href="#" class="link-arrow">↳ See all works</a>
+            <a href="/admin/dashboard" class="link-arrow">↳ Manage & Upload Works in Admin</a>
         </div>
     </div>
 </section>
