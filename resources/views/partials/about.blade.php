@@ -14,16 +14,12 @@
 
         <div class="about-stats reveal">
             <div class="stat-item">
-                <h3 class="stat-number"><span class="count-up" data-target="98">0</span>+</h3>
+                <h3 class="stat-number"><span class="count-up" data-target="3">0</span>+</h3>
                 <span class="stat-label">Clients</span>
             </div>
             <div class="stat-item">
-                <h3 class="stat-number"><span class="count-up" data-target="9">0</span>+</h3>
-                <span class="stat-label">Country</span>
-            </div>
-            <div class="stat-item">
-                <h3 class="stat-number"><span class="count-up" data-target="3">0</span>+</h3>
-                <span class="stat-label">Years</span>
+                <h3 class="stat-number"><span class="count-up" data-target="1">0</span>+</h3>
+                <span class="stat-label">Year</span>
             </div>
         </div>
 
