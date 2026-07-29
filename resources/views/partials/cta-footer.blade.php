@@ -1,8 +1,8 @@
 <!-- CTA Section -->
 <section class="section" id="contact">
     <div class="container cta-container reveal">
-        <h2 class="cta-title">Think smooth, smart, and super new. Kretya Clone can do it.</h2>
-        <a href="mailto:hello@kretyaclone.com" class="nav-cta cta-large">Let's Talk</a>
+        <h2 class="cta-title">Think smooth, smart, and super new. ACCORD can do it.</h2>
+        <a href="mailto:hello@accordstudio.com" class="nav-cta cta-large">Let's Talk</a>
     </div>
 </section>
 
@@ -11,7 +11,10 @@
     <div class="container footer-container">
         <div class="footer-top">
             <div class="footer-brand">
-                <h2>Kretya Clone</h2>
+                <div class="footer-brand-header">
+                    <img src="{{ asset('images/logo.png') }}" alt="accord✦" class="footer-logo">
+                    <span class="brand-tagline">CREATIVE STUDIO</span>
+                </div>
                 <div class="footer-info mt-4">
                     <span class="info-text">Currently in Jakarta – <span class="realtime-clock"></span></span>
                 </div>
@@ -33,13 +36,13 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                    <a href="mailto:hello@kretyaclone.com">hello@kretyaclone.com</a>
+                    <a href="mailto:hello@accordstudio.com">hello@accordstudio.com</a>
                 </div>
             </div>
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2026 Kretya Clone Studio. All rights reserved.</p>
+            <p>&copy; 2026 ACCORD Studio. All rights reserved.</p>
         </div>
     </div>
 </footer>

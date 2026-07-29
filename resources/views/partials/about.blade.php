@@ -8,7 +8,7 @@
             </h2>
             
             <p class="about-story text-muted">
-                Kretya Clone was born in 2026 from a simple idea: to bridge the gap between bold aesthetics and seamless functionality. We believe in designing intuitive, high-impact UI/UX experiences and crafting websites with clean code for startups and global teams.
+                ACCORD was born in 2026 from a simple idea: to bridge the gap between bold aesthetics and seamless functionality. We believe in designing intuitive, high-impact UI/UX experiences and crafting websites with clean code for startups and global teams.
             </p>
         </div>
 

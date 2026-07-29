@@ -1,6 +1,11 @@
 <nav class="navbar" id="navbar">
     <div class="container navbar-container">
-        <a href="/" class="navbar-brand">Kretya Clone</a>
+        <a href="/" class="navbar-brand">
+            <div class="brand-logo-wrapper">
+                <img src="{{ asset('images/logo.png') }}" alt="accord✦" class="brand-logo">
+            </div>
+            <span class="brand-tagline">CREATIVE STUDIO</span>
+        </a>
         
         <!-- Hamburger Menu for Mobile -->
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
